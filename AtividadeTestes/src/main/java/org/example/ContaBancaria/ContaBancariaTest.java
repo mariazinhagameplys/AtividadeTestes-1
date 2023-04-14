@@ -60,14 +60,12 @@ public class ContaBancariaTest {
 
     @Test
     public void testgetTitular() {
-        ContaBancaria contaDestino = new ContaBancaria("42", "Robson");
-        assertEquals(0.1, contaBancaria.getTitular());
+        assertEquals("Marta", contaBancaria.getTitular());
     }
 
     @Test
     public void testgetNumeroConta() {
-        ContaBancaria contaDestino = new ContaBancaria("42", "Robson");
-        assertEquals("42", contaBancaria.getNumeroConta());
+        assertEquals("35", contaBancaria.getNumeroConta());
     }
 
 }
